@@ -71,6 +71,18 @@ pip install -r requirements.txt
 cp .env.sample .env
 ```
 
+### Execution
+
+- Migrate database
+```
+python manage.py migrate
+```
+
+- Start project at [http://localhost:8000](http://localhost:8000)
+```
+python manage.py runserver 8000
+```
+
 <br />
 
 ## Contributing
