@@ -83,7 +83,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Gurvinder Singh - [@Guri_XD](https://twitter.com/Guri_XD)
+:star2: Gurvinder Singh - [@Guri_XD](https://twitter.com/Guri_XD)
 
 :email: Email - guri.developer97@gmail.com
 
