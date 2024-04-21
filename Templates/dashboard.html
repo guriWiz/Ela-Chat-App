@@ -1,0 +1,14 @@
+{% extends 'logged_in.html' %}
+
+{% block content %}
+
+<div class="container d-flex flex-column">
+    <center><h1>Welcome, {{ user.username }}</h1></center><br><br>
+    <div class="d-flex justify-content-center"></div>
+        <a class="btn btn-primary" href="{% url 'Room' %}" role="button">Create a Room to Chat</a><br><br>
+        <a class="btn btn-primary" href="{% url 'Search_User' %}" role="button">Search Users</a><br><br>
+        <a class="btn btn-primary" href="{% url 'Update_Profile' %}" role="button">Update Profile</a><br>
+    </div>
+</div>
+
+{% endblock %}

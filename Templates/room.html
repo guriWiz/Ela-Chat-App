@@ -1,0 +1,23 @@
+{% extends 'logged_in.html' %}
+
+{% block content %}
+<div class="container d-flex flex-column">
+    <center><h3>Enter the chat room you would like to enter?</h3></center><br>
+    <input id="room-name-input" type="text" size="100"><br>
+    <input id="room-name-submit" class="btn btn-primary" type="button" value="Create Room">
+</div>
+
+<script>
+    document.querySelector('#room-name-input').focus();
+    document.querySelector('#room-name-input').onkeyup = function (e) {
+        if (e.keyCode === 13) {  // enter, return
+            document.querySelector('#room-name-submit').click();
+        }
+    };
+
+    document.querySelector('#room-name-submit').onclick = function (e) {
+        var roomName = document.querySelector('#room-name-input').value;
+        window.location.pathname = '/room/' + roomName + '/';
+    };
+</script>
+{% endblock %}

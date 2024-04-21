@@ -1,0 +1,44 @@
+{% extends 'logged_in.html' %}
+
+{% block content %}
+
+<div class="container d-flex flex-column">
+    <center>
+        <h1>Search Users</h1><br>
+    </center>
+    <div class="d-flex justify-content-center">
+        <form action="{% url 'Search_User' %}" method="GET" value="{{request.GET.q}}">
+            <input type="text" name="q" value="{{request.GET.q}}" placeholder="Enter username" /><br><br>
+            <center><input class="btn btn-primary" type="submit" name="submit" value="Search" /></center>
+        </form>
+    </div>
+
+    {% if submitbutton == 'Search' and request.GET.q != '' %}
+    <h1>Results for <b>{{ request.GET.q }}</b></h1>
+    <br /><br />
+    <ul>
+        {% for user in object_list %}
+        {% if request.GET.q == user %}
+        <li>
+            {{ user.username }}
+        </li>
+        {% endif %}
+        {% endfor %}
+    </ul>
+
+    {% endif %}
+
+    <br><br>
+    <center>
+        <h3>List of all available users are:</h3><br>
+        <ul>
+            {% for user in object_list %}
+            <li>
+                {{ user.username }}
+            </li>
+            {% endfor %}
+        </ul>
+    </center>
+</div>
+
+{% endblock %}
