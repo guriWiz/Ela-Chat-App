@@ -18,11 +18,11 @@
 
 ## Features
 
-- Registration and login functionality.
-- Create private rooms.
-- Ability to search users by user name.
-- Update profile.
-- Send & receive messages in real time.
+- Registration and login features.
+- Establish private chat rooms.
+- Search for users by username.
+- Manage profile information.
+- Instantaneous sending and receiving of messages.
 
 <br />
 
@@ -83,8 +83,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Gurvinder Singh - [@Guri_XD](https://twitter.com/Guri_XD) | 
-Email - guri.developer97@gmail.com
+Gurvinder Singh - [@Guri_XD](https://twitter.com/Guri_XD)
+
+:email: Email - guri.developer97@gmail.com
 
 Project Link: [https://github.com/Guri-X/Ela-Chat-App](https://github.com/Guri-X/Ela-Chat-App)
 
