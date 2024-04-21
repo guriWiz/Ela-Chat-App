@@ -87,7 +87,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 :email: Email - guri.developer97@gmail.com
 
-Project Link: [https://github.com/Guri-X/Ela-Chat-App](https://github.com/Guri-X/Ela-Chat-App)
+:rocket: Project Repo - [https://github.com/Guri-X/Ela-Chat-App](https://github.com/Guri-X/Ela-Chat-App)
 
 <br />
 
