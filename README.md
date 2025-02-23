@@ -9,9 +9,7 @@
 
 ## Demo
 
-<video width="700" controls>
-    <source src="./Videos/Demo.mp4" type="video/mp4">
-</video>
+[![YouTube](http://i.ytimg.com/vi/lRWqgqWkyiU/hqdefault.jpg)](https://www.youtube.com/watch?v=lRWqgqWkyiU)
 
 <br />
 
