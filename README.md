@@ -7,12 +7,19 @@
 
 <br />
 
+## Demo
+
+<video width="700" controls>
+    <source src="./Videos/Demo.mp4" type="video/mp4">
+</video>
+
+<br />
+
 ## Screenshots
 
 |![Home Page](./Screenshots/1.png)|![Login Page](./Screenshots/2.png)|
 |-----|-----|
 |![Dashboard](./Screenshots/3.png)|![Create Room](./Screenshots/4.png)|
-
 
 <br />
 
